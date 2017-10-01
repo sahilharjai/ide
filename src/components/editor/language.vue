@@ -5,7 +5,7 @@
       <span v-if="selected"> {{selected}} </span> <span class="caret"></span>
        <i class="fa fa-code" aria-hidden="true"></i>
     </button>
-    <ul  class="dropdown-menu" ref="dropdownEl">
+    <ul class="dropdown-menu" ref="dropdownEl">
         <li v-for="option in options" @click="select(option)"><a href="#">{{option}}</a></li>
     </ul>  
   </div>
@@ -39,7 +39,7 @@
         this.isOpen = !this.isOpen 
       },
       close () {
-        setTimeout(() => this.isOpen=false,250)   
+        setTimeout(() => { this.isOpen=false ,250 })    
       }
     }
   }
