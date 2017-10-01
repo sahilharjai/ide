@@ -39,7 +39,7 @@
         this.isOpen = !this.isOpen 
       },
       close () {
-        setTimeout(() => { this.isOpen=false ,250 })    
+        setTimeout(() => { this.isOpen=false },250 )    
       }
     }
   }
