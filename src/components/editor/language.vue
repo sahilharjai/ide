@@ -1,5 +1,5 @@
 <template>
-  <div id="languageId" class="btn-group" :class="{ open : isOpen}"  @click="open()">
+  <div id="languageId" class="btn-group" :class="{ open : isOpen}"  @click="open">
     <button id="panelLang" type="button" class="btn btn-sm btn-menu"
             aria-haspopup="true" aria-expanded="false" @blur="close" >
       <span v-if="selected"> {{selected}} </span> <span class="caret"></span>
