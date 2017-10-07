@@ -1,6 +1,6 @@
 <template>
   <div id="shortcutId" class="btn-group">
-    <button id="panelLang" type="button" class="btn btn-sm btn-menu" @click="showModal=true" >
+    <button id="panelLang" type="button" class="btn btn-sm btn-menu" @click="showModal=true" @blur="showModal=false">
        Shortcuts<i class="fa fa-reply-all" aria-hidden="true"></i>
     </button>
     <div name="modal" v-show="showModal">

@@ -39,18 +39,8 @@
         this.isOpen = !this.isOpen 
       },
       close () {
-<<<<<<< HEAD
-        setTimeout(() => this.isOpen=false,250)   
-      }
-    }
-  }
-
-
-  
-=======
         setTimeout(() => { this.isOpen=false },250 )    
       }
     }
   } 
->>>>>>> da7e6a967df8ede81066243cb774176575489320
 </script>
