@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper" @keyup="keyShortCuts">
+  <div class="wrapper" @keydown="keyShortCuts">
     <div id="fs_control">
       <div class="panel panel-default">
         <div class="headPanel panel-heading">
@@ -154,10 +154,12 @@
       keyShortCuts(e){
         if(e.ctrlKey&&e.keyCode==81)
         {
+          e.preventDefault();
           this.runCode();
         }
         if(e.ctrlKey&&e.keyCode==66)
         {
+          e.preventDefault();
           this.$store.commit('resetEditor')
         }
       }
