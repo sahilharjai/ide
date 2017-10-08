@@ -32,7 +32,7 @@
               Share <i class="fa fa-external-link-square" aria-hidden="true"></i>
             </button>
             <shortcuts></shortcuts>
-            
+
           </div>
           <div class="logoMenu">
             Made with <i class="fa fa-heart" aria-hidden="true" style="color: #e31d3b"></i> by
@@ -198,6 +198,14 @@
     height: 40px;
   }
 
+  @media (max-width: 877px) {
+    .logoMenu {
+      display: none;
+    }
+  }
+</style>
+
+<style>
   .btn-run {
     background: #e31d3b;
     border-radius: 50px !important;
@@ -208,11 +216,4 @@
     background: #e31d3b;
     color: white !important;
   }
-
-  @media (max-width: 877px) {
-    .logoMenu {
-      display: none;
-    }
-  }
 </style>
-
