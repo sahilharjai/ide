@@ -14,7 +14,7 @@
             <div class="modal-body">
               <ul class="list-group">
                 <li class="list-group-item"><kbd>Ctrl</kbd> + <kbd>Q</kbd>: To Run the program.</li>
-                <li class="list-group-item"><kbd>Ctrl</kbd> + <kbd>B</kbd>: To Reset to defaults.</li>
+                <li class="list-group-item"><kbd>Ctrl</kbd> + <kbd>B</kbd> or <kbd>Ctrl</kbd> + <kbd>option</kbd> + <kbd>B</kbd>(MAC): To Reset to defaults.</li>
                 <li class="list-group-item"><kbd>Ctrl</kbd> + <kbd>M</kbd>: To Reset the Code.</li>
               </ul>
             </div>
@@ -64,7 +64,7 @@
   }
 
   .modal-container {
-    width: 60vh;
+    width: 65vh;
     margin: 0px auto;
     padding: 10px 30px 30px 30px;
     background-color: #fff;
@@ -74,7 +74,7 @@
     font-family: Helvetica, Arial, sans-serif;
   }
 
-  .modal-header, .modal-body {
+  .modal-header {
     padding: 15px 25px !important;
   }
 
@@ -90,6 +90,7 @@
 
   .modal-body {
     margin: 5px 0;
+    font-size: 15px;
   }
 
   .modal-default-button {
@@ -105,7 +106,7 @@
     margin: 0 .1em;
     padding: .2em 1em;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     line-height: 1.4;
     color: #242729;
     text-shadow: 0 1px 0 #FFF;
