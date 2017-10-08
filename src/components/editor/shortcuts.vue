@@ -15,6 +15,7 @@
                 <ul class="list-group">
                   <li class="list-group-item"><kbd>Ctrl</kbd> + <kbd>Q</kbd>: To Run the program.</li>
                   <li class="list-group-item"><kbd>Ctrl</kbd> + <kbd>B</kbd>: To Reset to defaults.</li>
+                  <li class="list-group-item"><kbd>Ctrl</kbd> + <kbd>M</kbd>: To Reset the Code.</li>
                 </ul>
             </div>
 
