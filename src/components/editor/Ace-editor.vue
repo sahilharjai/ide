@@ -159,7 +159,7 @@
     margin: 0;
     border-radius: 0;
   }
-
+g
   .smallEditor {
     height: calc(100vh - 240px) !important;
   }
